@@ -4,6 +4,7 @@ Plugin permettant de controller l'alarme Somfy Home Alarme depuis Jeedom.
 
 # Configuration du plugin
 Après le téléchargement du plugin, il vous suffit de l'activer, puis de renseigner vos identifiants Somfy Home Alarm.
+![Configuration](https://erobert-c.github.io/docs-somfyHomeAlarm/images/configuration.png)
 
 # Création des alarmes
 Le plugin va automatiquement créer les alarmes associées à votre compte. Cliquez simplement sur "Scan des Alarmes" pour récupérer les alarmes et créer les commandes dans jeedom.
