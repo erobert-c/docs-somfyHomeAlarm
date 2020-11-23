@@ -1,3 +1,10 @@
+---
+layout: default
+title: Somfy Home Alarm
+lang: fr_FR
+pluginId: SomfyHomeAlarm
+---
+
 # Plugin SomfyHomeAlarm
 
 Plugin permettant de controller l'alarme Somfy Home Alarme depuis Jeedom.
