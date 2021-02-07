@@ -19,7 +19,13 @@ Le plugin va automatiquement créer les alarmes associées à votre compte. Cliq
 ## Commandes disponibles
 - Armement total
 - Armement partiel (nuit)
+- Mode panic: Déclenchement de la sirène
+- Alarme silencieuse: Activation de la fonction SOS de l'application
+- Stop: Arrête l'alerte en cours
 - Désactiver/activer notification
+- Mode weekend: Désactive les notifications et passe en mode partiel
 - Refresh: actualisation de l'état de l'alarme
 
-Il n'est pas possible de déclencher la sirène à partir du plugin.
+## Retour d'état
+Pour le moment, le retour d'état n'est pas possible, et la solution pour avoir un retour "live" reste de passer par
+IFTTT.
