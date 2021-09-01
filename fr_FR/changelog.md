@@ -1,5 +1,18 @@
 # Changelog plugin SomfyHomeAlarm
 
+## 01-09-2020
+**Mise à jour majeure, il faut acheter le plugin pour pouvoir faire la mise à jour**
+* Ajout d'un démon pour le retour temps réel pour le niveau de sécurité et si alarme en cours
+* Ajout du support de la configuration des différents périphériques (pas de retour temps réel)
+  * Sirène intérieure et extérieure
+  * Intellitag
+  * PIR
+  * Link
+  * Badge
+* **Ne plus utiliser la commande État**
+  * L'activation de l'alarme est donnée par la commande [Site][Niveau de protection]
+  * La commande [Site][Alarme] indique si une alarme est en cours
+
 ## 07-02-2020
 * Correction réactivation notification après délai (merci @Jenjen)
 * Changement du comportement mode partial: le mode partial ne change plus l'état des notifications
