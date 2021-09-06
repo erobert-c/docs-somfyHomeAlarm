@@ -12,6 +12,9 @@
 * **Ne plus utiliser la commande État**
   * L'activation de l'alarme est donnée par la commande [Site][Niveau de protection]
   * La commande [Site][Alarme] indique si une alarme est en cours
+* **Ne plus utiliser les commandes Activer/Désactiver notification**
+  * L'activation ou la désactivation des notifications se fait sur l'équipement [Sirène intérieure] ou [Sirène extérieure], avec les commandes [Son ON] et [Son OFF]
+  * Les notifications lumineuses peuvent aussi être activées avec les commandes [Lunière ON] et [Lumière OFF]
 
 ## 07-02-2020
 * Correction réactivation notification après délai (merci @Jenjen)
