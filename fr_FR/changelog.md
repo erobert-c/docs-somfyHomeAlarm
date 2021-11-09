@@ -1,6 +1,11 @@
 # Changelog plugin SomfyHomeAlarm
 
-## 01-09-2020
+## 09-11-2021
+* Correction du comportement si le refresh du security_level ne renvoie pas d'info. On ne change pas la valeur et on essaie à nouveau un refresh.
+* Ajout d'un message dans jeedom en cas d'utilisation de commandes deprecated.
+* Fix de la fonction on_close du websocket.
+
+## 01-09-2021
 **Mise à jour majeure, il faut acheter le plugin pour pouvoir faire la mise à jour**
 * Ajout d'un démon pour le retour temps réel pour le niveau de sécurité et si alarme en cours
 * Ajout du support de la configuration des différents périphériques (pas de retour temps réel)
@@ -13,7 +18,7 @@
   * L'activation de l'alarme est donnée par la commande [Site][Niveau de protection]
   * La commande [Site][Alarme] indique si une alarme est en cours
 
-## 07-02-2020
+## 07-02-2021
 * Correction réactivation notification après délai (merci @Jenjen)
 * Changement du comportement mode partial: le mode partial ne change plus l'état des notifications
 * Ajout des commandes *Panic*, *Alarme Silencieuse* et *Stop*
