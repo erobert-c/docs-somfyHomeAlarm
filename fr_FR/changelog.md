@@ -1,6 +1,6 @@
 # Changelog plugin SomfyHomeAlarm
 
-## [BETA] 25-11-2021
+## 06-12-2021
 * Retrait du package globals pour éviter problème d'installation sur debian 8
 * Ajout de la dépendance sur packaging, pour pouvoir controler le numéro de version de websocket-client
 * Gestion des anciennes versions de websocket-client on_close.
