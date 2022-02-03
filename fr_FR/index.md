@@ -54,6 +54,8 @@ Permet d'avoir les informations relative au link.
 * Mode alimentation: Indique si le link est alimenté sur secteur (*current*) ou sur batterie (*battery*)
 * État alimentation: Binaire indiquant si le link est actuellement alimenté sur secteur
 * Batterie: Niveau de batterie
+* Connecté à: Indique la date et l'heure de la dernière fois où Somfy a détecté que le Link avait accès à internet
+* Hors ligne à: Indique la date et l'heure de la dernière fois où Somfy a detecté que le Link n'avait plus accès à internet
 
 ## Sirènes intérieure et extérieure
 Cet équipement permet de configurer les paramètres de la sirène intérieure.
