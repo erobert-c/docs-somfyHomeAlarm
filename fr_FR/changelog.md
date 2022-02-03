@@ -1,7 +1,7 @@
 # Changelog plugin SomfyHomeAlarm
 
 
-## [BETA] 03-02-2022
+## 03-02-2022
 * Ajout du type LinkPremium pour SomfyHomeAlarm Advanced
 * Réorganisation des images pour Jeedom 4.2
 * Ajout des infos de diagnostic pour les équipements
