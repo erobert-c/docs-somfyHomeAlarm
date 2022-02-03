@@ -1,5 +1,11 @@
 # Changelog plugin SomfyHomeAlarm
 
+
+## [BETA] 03-02-2022
+* Ajout du type LinkPremium pour SomfyHomeAlarm Advanced
+* Réorganisation des images pour Jeedom 4.2
+* Ajout des infos de diagnostic pour les équipements
+
 ## 06-12-2021
 * Retrait du package globals pour éviter problème d'installation sur debian 8
 * Ajout de la dépendance sur packaging, pour pouvoir controler le numéro de version de websocket-client
