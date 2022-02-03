@@ -47,6 +47,8 @@ Il s'agit de l'équipement principal du plugin. Celui ci donne le niveau d'activ
 Permet d'avoir les informations relative au link.
 
 ### Liste des commandes
+* Diagnostic ok?: Indique si il y a un problème avec le link (par exemple, s'il n'est pas connecté à internet)
+* Problèmes: Liste les problèmes éventuels
 * Qualité Wifi: Indique la qualité de la connexion Wifi
 * Qualité LoRa: Indique la qualité de la connexion LoRa si vous bénéficiez de ce service
 * Mode alimentation: Indique si le link est alimenté sur secteur (*current*) ou sur batterie (*battery*)
@@ -57,6 +59,8 @@ Permet d'avoir les informations relative au link.
 Cet équipement permet de configurer les paramètres de la sirène intérieure.
 
 ### Liste des commandes
+* Diagnostic ok?: Indique si il y a un problème avec la sirène (par exemple en cas de batterie faible)
+* Problèmes: Liste les problèmes éventuels
 * Qualité RLink: indique la qualité du lien radio entre la sirène et le Link
 * Batterie: Indique le niveau de batterie de la sirène
 * Lumière active: Indique si la notification lumineuse est active lors des changements de niveau de sécurité
@@ -74,6 +78,8 @@ Cet équipement permet de configurer les paramètres de la sirène intérieure.
 Cet équipement permet de configurer les badges (KeyFob). **Aucune information n'est retournée en temps réel, vous ne pourrez pas utiliser le plugin pour gérer la présence des membres à partir des badges !** Pour gérer la présence, vous pouvez cependant vous tourner vers le plugin BLEA qui gère ces badges.
 
 ### Liste des commandes
+* Diagnostic ok?: Indique si il y a un problème avec le badge (par exemple en cas de batterie faible)
+* Problèmes: Liste les problèmes éventuels
 * Qualité RLink: indique la qualité du lien radio entre le badge et le Link
 * Batterie: Indique le niveau de batterie du badge
 * Actif: Indique si le badge est actif ou non (utilisé pour la désactivation auto de l'alarme)
@@ -84,6 +90,8 @@ Cet équipement permet de configurer les badges (KeyFob). **Aucune information n
 Cet équipement permet de configurer les Intellitags. **Aucune information n'est retournée en temps réel, vous ne pourrez pas utiliser le plugin pour détecter quand une porte a été ouverte !**
 
 ### List des commandes
+* Diagnostic ok?: Indique si il y a un problème avec l'intellitag (par exemple en cas de batterie faible)
+* Problèmes: Liste les problèmes éventuels
 * Qualité RLink: indique la qualité du lien radio entre l'intellitag et le Link
 * Batterie: Indique le niveau de batterie de l'intellitag
 * Recalibration nécessaire: Indique si la calibration (depuis l'application) de l'intellitag est nécessaire
@@ -102,6 +110,8 @@ Cet équipement permet de configurer les Intellitags. **Aucune information n'est
 Cet équipement permet de configurer les PIRs (détecteurs de mouvement). **Aucune information n'est retournée en temps réel, vous ne pourrez pas utiliser le plugin pour détecter quand il y a un mouvement !**
 
 ### Liste des commandes
+* Diagnostic ok?: Indique si il y a un problème avec le PIR (par exemple en cas de batterie faible)
+* Problèmes: Liste les problèmes éventuels
 * Qualité RLink: indique la qualité du lien radio entre le PIR et le Link
 * Batterie: Indique le niveau de batterie de le PIR
 * Température: Indique la température mesurée par le détecteur
