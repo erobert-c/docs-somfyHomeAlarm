@@ -1,5 +1,8 @@
 # Changelog plugin SomfyHomeAlarm
 
+## 25-02-2022
+* Ajout du display du Link Premium
+* Fix du démon qui ne démarre pas si le mot de passe contient des caractères spéciaux
 
 ## 03-02-2022
 * Ajout du type LinkPremium pour SomfyHomeAlarm Advanced
