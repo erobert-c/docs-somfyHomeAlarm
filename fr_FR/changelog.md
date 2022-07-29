@@ -1,5 +1,8 @@
 # Changelog plugin SomfyHomeAlarm
 
+## 28-07-2022
+* Fix pour la mise à jour du statut de l'alarme en cas de déclenchement depuis Somfy
+
 ## 25-02-2022
 * Ajout du display du Link Premium
 * Fix du démon qui ne démarre pas si le mot de passe contient des caractères spéciaux
