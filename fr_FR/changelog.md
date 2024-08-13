@@ -1,5 +1,20 @@
 # Changelog plugin SomfyHomeAlarm
 
+## 14-08-2024
+* Utilisation du [script de NebzHB/Mips/Titidom](https://community.jeedom.com/t/dependances-python-des-plugins-venv-pyenv-debian-12/125585/1) pour l'installation et la gestion des dépendances
+* Compatibilité debian 12
+
+## 25-04-2024
+* Ajout support LinkTwo. Uniquement les fonctions du Link classiques sont implémentées
+* Ajout d'une colonne avec les valeurs dans la vue des équipements
+* Ajout des types génériques pour un début d'intégration avec le plugin homebridge. Intégration non testée, je ne possède pas le plugin homebridge
+  * Nouvelle commande [Site][Mode]: Information donnant le dernier mode activé de l'alarme ('partial', 'armed'). Correspond au type générique `ALARM_MODE`
+  * Nouvelle commande [Site][Enable]: Information donnant l'état de l'alarme. Correspond au type générique `ALARM_ENABLE_STATE`
+  * La commande [Site][Armement total] a maintenant un type générique `ALARM_SET_MODE`. La commande passera la valeur de [Site][Mode] à `armed`, et activera l'alarme.
+  * La commande [Site][Armement partiel] a maintenant un type générique `ALARM_SET_MODE`. La commande passera la valeur de [Site][Mode] à `partial`, et activera l'alarme.
+  * La commande [Site][Désarmer] a maintenant un type générique `ALARM_RELEASED`.
+  * La commande [Site][Activer] a maintenant un type générique `ALARM_ARMED`. La commande activera l'alarme dans le dernier mode où elle a été activée, se basant sur la valeur de la commande [Site][Mode].
+
 ## 28-07-2022
 * Fix pour la mise à jour du statut de l'alarme en cas de déclenchement depuis Somfy
 
