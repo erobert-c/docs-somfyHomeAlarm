@@ -1,5 +1,9 @@
 # Changelog plugin SomfyHomeAlarm
 
+## 14-08-2024
+* Utilisation du [script de NebzHB/Mips/Titidom](https://community.jeedom.com/t/dependances-python-des-plugins-venv-pyenv-debian-12/125585/1) pour l'installation et la gestion des dépendances
+* Début compatibilité debian 12
+
 ## 25-04-2024
 * Ajout support LinkTwo. Uniquement les fonctions du Link classiques sont implémentées
 * Ajout d'une colonne avec les valeurs dans la vue des équipements
