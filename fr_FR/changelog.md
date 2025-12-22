@@ -1,5 +1,9 @@
 # Changelog plugin SomfyHomeAlarm
 
+## 22-12-2025
+* Compatibilité debian 12
+* Refactoring du démon pour utiliser asyncio plutôt que threading
+
 ## 14-08-2024
 * Utilisation du [script de NebzHB/Mips/Titidom](https://community.jeedom.com/t/dependances-python-des-plugins-venv-pyenv-debian-12/125585/1) pour l'installation et la gestion des dépendances
 * Début compatibilité debian 12
