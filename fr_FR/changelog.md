@@ -1,5 +1,9 @@
 # Changelog plugin SomfyHomeAlarm
 
+## 23-12-2025
+* Correction installation dépendances python
+* Gestion du trigger `alarm.trespass`
+
 ## 22-12-2025
 * Compatibilité debian 12
 * Refactoring du démon pour utiliser asyncio plutôt que threading
