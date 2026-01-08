@@ -1,5 +1,8 @@
 # Changelog plugin SomfyHomeAlarm
 
+# 08-01-2026
+* Fix du refresh du token depuis le démon
+
 ## 23-12-2025
 * Correction installation dépendances python
 * Gestion du trigger `alarm.trespass`
