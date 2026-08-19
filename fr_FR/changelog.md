@@ -1,6 +1,10 @@
 # Changelog plugin SomfyHomeAlarm
 
-# 08-01-2026
+# 19-08-2026
+* Refactoring du démon (aiohttp/asyncio) pour corriger une forte consommation de mémoire swap
+* Correction de l'installation silencieuse des dépendances python
+
+## 08-01-2026
 * Fix du refresh du token depuis le démon
 
 ## 23-12-2025
